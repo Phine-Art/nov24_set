@@ -5,3 +5,4 @@ yum install httpd -y
 systemctl restart httpd
 systemctl enable httpd
 echo "We are live in Class" >> /var/www/html/index.html
+echo "Task complete"
